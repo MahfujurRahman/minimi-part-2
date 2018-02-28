@@ -30,6 +30,7 @@ body {
 }
 a:hover { text-decoration: none }
 
+
 a.logo {
     display:  inline-block;
     margin-top:  20px;
@@ -42,12 +43,15 @@ a.logo {
 
 .header-menu {
     display:  inline-block;
+    float: right;
 }
 
 a.treger-menu {
     float:  left;
     margin-top: 20px;
     padding-left: 145px;
+    position: absolute;
+    display: none;
 }
 .header-menu ul {
     margin:  0;
@@ -321,6 +325,7 @@ a.frist-comment {
     padding: 25px;
     right: 0;
     margin-right: -250px;
+    transition: .3s;
 }
 
 .offe-canvar-menu.active{
